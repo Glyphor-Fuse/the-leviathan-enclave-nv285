@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Cormorant+Garamond:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --font-display-family: 'Cinzel', serif;
+  --font-body-family: 'Cormorant Garamond', serif;
+  --font-display: var(--font-display-family);
+  --font-body: var(--font-body-family);
+}

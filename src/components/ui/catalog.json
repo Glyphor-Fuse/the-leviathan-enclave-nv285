@@ -1,0 +1,2043 @@
+{
+  "version": 1,
+  "description": "Component catalog for UX Engineer agent. Maps every available component to its library, description, and category.",
+  "components": {
+    "accordion": {
+      "lib": "shadcn",
+      "cat": "structure",
+      "desc": "Collapsible content sections with animated open/close."
+    },
+    "alert-dialog": {
+      "lib": "shadcn",
+      "cat": "structure",
+      "desc": "Modal dialog for confirmations and destructive actions."
+    },
+    "alert": {
+      "lib": "shadcn",
+      "cat": "structure",
+      "desc": "Callout banner for important messages (info, warning, error)."
+    },
+    "aspect-ratio": {
+      "lib": "shadcn",
+      "cat": "structure",
+      "desc": "Maintains a fixed aspect ratio for images and media."
+    },
+    "avatar": {
+      "lib": "shadcn",
+      "cat": "structure",
+      "desc": "Circular user avatar with image fallback to initials."
+    },
+    "badge": {
+      "lib": "shadcn",
+      "cat": "structure",
+      "desc": "Small label for status, counts, or categories."
+    },
+    "breadcrumb": {
+      "lib": "shadcn",
+      "cat": "navigation",
+      "desc": "Hierarchical navigation trail showing current page location."
+    },
+    "button": {
+      "lib": "shadcn",
+      "cat": "structure",
+      "desc": "Standard button with variants: default, destructive, outline, ghost, link."
+    },
+    "calendar": {
+      "lib": "shadcn",
+      "cat": "structure",
+      "desc": "Date picker calendar grid component."
+    },
+    "card": {
+      "lib": "shadcn",
+      "cat": "structure",
+      "desc": "Container with header, content, and footer sections."
+    },
+    "carousel": {
+      "lib": "shadcn",
+      "cat": "structure",
+      "desc": "Horizontal content slider with prev/next navigation."
+    },
+    "chart": {
+      "lib": "shadcn",
+      "cat": "structure",
+      "desc": "Data visualization wrapper for charts and graphs."
+    },
+    "checkbox": {
+      "lib": "shadcn",
+      "cat": "structure",
+      "desc": "Toggle checkbox input with label support."
+    },
+    "collapsible": {
+      "lib": "shadcn",
+      "cat": "structure",
+      "desc": "Expandable/collapsible content wrapper."
+    },
+    "command": {
+      "lib": "shadcn",
+      "cat": "structure",
+      "desc": "Command palette / searchable list (like Cmd+K)."
+    },
+    "context-menu": {
+      "lib": "shadcn",
+      "cat": "structure",
+      "desc": "Right-click context menu with nested items."
+    },
+    "dialog": {
+      "lib": "shadcn",
+      "cat": "structure",
+      "desc": "Modal overlay dialog with header, body, footer."
+    },
+    "drawer": {
+      "lib": "shadcn",
+      "cat": "structure",
+      "desc": "Slide-in panel from edge of screen."
+    },
+    "dropdown-menu": {
+      "lib": "shadcn",
+      "cat": "structure",
+      "desc": "Dropdown menu triggered by a button."
+    },
+    "form": {
+      "lib": "shadcn",
+      "cat": "structure",
+      "desc": "Form wrapper with validation and field state management."
+    },
+    "hover-card": {
+      "lib": "shadcn",
+      "cat": "structure",
+      "desc": "Floating card that appears on hover over a trigger."
+    },
+    "input-otp": {
+      "lib": "shadcn",
+      "cat": "structure",
+      "desc": "One-time password input with individual digit slots."
+    },
+    "input": {
+      "lib": "shadcn",
+      "cat": "structure",
+      "desc": "Standard text input field."
+    },
+    "label": {
+      "lib": "shadcn",
+      "cat": "structure",
+      "desc": "Form label linked to an input element."
+    },
+    "menubar": {
+      "lib": "shadcn",
+      "cat": "navigation",
+      "desc": "Horizontal menu bar with dropdown submenus."
+    },
+    "navigation-menu": {
+      "lib": "shadcn",
+      "cat": "navigation",
+      "desc": "Top-level navigation with mega-menu dropdowns."
+    },
+    "pagination": {
+      "lib": "shadcn",
+      "cat": "navigation",
+      "desc": "Page navigation with prev/next and page numbers."
+    },
+    "popover": {
+      "lib": "shadcn",
+      "cat": "structure",
+      "desc": "Floating popover panel anchored to a trigger element."
+    },
+    "progress": {
+      "lib": "shadcn",
+      "cat": "structure",
+      "desc": "Progress bar showing completion percentage."
+    },
+    "radio-group": {
+      "lib": "shadcn",
+      "cat": "structure",
+      "desc": "Radio button group for single-selection options."
+    },
+    "resizable": {
+      "lib": "shadcn",
+      "cat": "structure",
+      "desc": "Resizable split pane layout with drag handles."
+    },
+    "scroll-area": {
+      "lib": "shadcn",
+      "cat": "structure",
+      "desc": "Custom scrollbar container with overflow handling."
+    },
+    "select": {
+      "lib": "shadcn",
+      "cat": "structure",
+      "desc": "Dropdown select input with searchable options."
+    },
+    "separator": {
+      "lib": "shadcn",
+      "cat": "structure",
+      "desc": "Visual divider line (horizontal or vertical)."
+    },
+    "sheet": {
+      "lib": "shadcn",
+      "cat": "structure",
+      "desc": "Slide-in side panel overlay (left, right, top, bottom)."
+    },
+    "sidebar": {
+      "lib": "aceternity",
+      "cat": "navigation",
+      "desc": "Expandable sidebar that expands on hover with dark mode support."
+    },
+    "skeleton": {
+      "lib": "shadcn",
+      "cat": "structure",
+      "desc": "Loading placeholder with shimmer animation."
+    },
+    "slider": {
+      "lib": "shadcn",
+      "cat": "structure",
+      "desc": "Range slider input for selecting numeric values."
+    },
+    "sonner": {
+      "lib": "shadcn",
+      "cat": "structure",
+      "desc": "Toast notification system with stacking and auto-dismiss."
+    },
+    "switch": {
+      "lib": "shadcn",
+      "cat": "structure",
+      "desc": "Toggle switch for on/off boolean values."
+    },
+    "table": {
+      "lib": "shadcn",
+      "cat": "structure",
+      "desc": "Data table with header, body, and row components."
+    },
+    "tabs": {
+      "lib": "aceternity",
+      "cat": "structure",
+      "desc": "Animated tabs with background animation on switch."
+    },
+    "textarea": {
+      "lib": "shadcn",
+      "cat": "structure",
+      "desc": "Multi-line text input field."
+    },
+    "toggle-group": {
+      "lib": "shadcn",
+      "cat": "structure",
+      "desc": "Group of toggle buttons for multi-option selection."
+    },
+    "toggle": {
+      "lib": "shadcn",
+      "cat": "structure",
+      "desc": "Pressable toggle button with on/off state."
+    },
+    "tooltip": {
+      "lib": "shadcn",
+      "cat": "structure",
+      "desc": "Floating label that appears on hover with brief info."
+    },
+    "3d-card": {
+      "lib": "aceternity",
+      "cat": "visual",
+      "desc": "Card with 3D perspective tilt effect that elevates elements on hover.",
+      "usage": "<CardContainer><CardBody className=\"bg-card\"><CardItem translateZ=\"50\"><h3>Title</h3></CardItem><CardItem translateZ=\"30\"><p>Desc</p></CardItem><CardItem translateZ=\"20\"><img src=\"...\" /></CardItem></CardBody></CardContainer> — 3D tilt. Each CardItem gets different translateZ for parallax depth."
+    },
+    "3d-globe": {
+      "lib": "aceternity",
+      "cat": "visual",
+      "desc": "Realistic interactive globe with tooltips and avatar tips."
+    },
+    "3d-marquee": {
+      "lib": "aceternity",
+      "cat": "visual",
+      "desc": "3D marquee grid effect, good for showcasing testimonials and hero sections."
+    },
+    "3d-pin": {
+      "lib": "aceternity",
+      "cat": "visual",
+      "desc": "Gradient pin that animates on hover, perfect for product links."
+    },
+    "animated-modal": {
+      "lib": "aceternity",
+      "cat": "structure",
+      "desc": "Customizable compound modal with animated transitions."
+    },
+    "animated-testimonials": {
+      "lib": "aceternity",
+      "cat": "visual",
+      "desc": "Minimal testimonials section with image and quote animations.",
+      "usage": "<AnimatedTestimonials testimonials={[{quote:\"Text\",name:\"Name\",designation:\"Role\",src:\"/images/avatar.jpg\"}]} /> — Image + quote with smooth transitions."
+    },
+    "animated-tooltip": {
+      "lib": "aceternity",
+      "cat": "visual",
+      "desc": "Tooltip that reveals on hover and follows mouse pointer."
+    },
+    "apple-cards-carousel": {
+      "lib": "aceternity",
+      "cat": "visual",
+      "desc": "Sleek minimal carousel as seen on apple.com.",
+      "usage": "<Carousel items={cards.map((c,i) => <Card key={i} card={c} index={i} />)} /> — Apple.com style carousel. Build Card components with title, category, src, content."
+    },
+    "aurora-background": {
+      "lib": "aceternity",
+      "cat": "background",
+      "desc": "Subtle aurora / southern lights background effect.",
+      "usage": "<AuroraBackground><div className=\"relative z-10\">{children}</div></AuroraBackground> — Wraps children with animated aurora gradient. Content must have z-10."
+    },
+    "background-beams": {
+      "lib": "aceternity",
+      "cat": "background",
+      "desc": "Multiple SVG beams following paths, good for hero backgrounds.",
+      "usage": "<BackgroundBeams className=\"absolute inset-0\" /> — SVG beam paths. Place as sibling inside relative container alongside z-10 content."
+    },
+    "background-beams-with-collision": {
+      "lib": "aceternity",
+      "cat": "background",
+      "desc": "Exploding beams in the background with collision effects."
+    },
+    "background-boxes": {
+      "lib": "aceternity",
+      "cat": "background",
+      "desc": "Full-width box container that highlights individual boxes on hover."
+    },
+    "background-gradient": {
+      "lib": "aceternity",
+      "cat": "background",
+      "desc": "Animated gradient sitting behind cards, buttons, or any element."
+    },
+    "background-gradient-animation": {
+      "lib": "aceternity",
+      "cat": "background",
+      "desc": "Smooth elegant gradient animation that shifts position over time."
+    },
+    "background-lines": {
+      "lib": "aceternity",
+      "cat": "background",
+      "desc": "SVG paths animating in wave pattern, good for hero backgrounds."
+    },
+    "background-ripple-effect": {
+      "lib": "aceternity",
+      "cat": "background",
+      "desc": "Grid of cells that ripple when clicked."
+    },
+    "bento-grid": {
+      "lib": "aceternity",
+      "cat": "layout",
+      "desc": "Skewed grid layout with title, description, and header components.",
+      "usage": "<BentoGrid>{items.map((item,i) => <BentoGridItem key={i} title={item.title} description={item.desc} header={item.header} icon={item.icon} className={i===3||i===6 ? \"md:col-span-2\" : \"\"} />)}</BentoGrid> — Data-driven grid. Map items array into BentoGridItem."
+    },
+    "canvas-reveal-effect": {
+      "lib": "aceternity",
+      "cat": "visual",
+      "desc": "Dot background that expands on hover, as seen on Clerk's website."
+    },
+    "card-hover-effect": {
+      "lib": "aceternity",
+      "cat": "visual",
+      "desc": "Hover effect that slides highlight to the currently hovered card.",
+      "usage": "<HoverEffect items={[{title:\"Title\",description:\"Desc\",link:\"#\"}]} /> — Sliding highlight to hovered card. Data-driven grid."
+    },
+    "card-spotlight": {
+      "lib": "aceternity",
+      "cat": "visual",
+      "desc": "Card with spotlight revealing a radial gradient background.",
+      "usage": "<CardSpotlight className=\"bg-card\"><h3>Title</h3><p>Desc</p></CardSpotlight> — Card with spotlight radial gradient on hover following mouse."
+    },
+    "card-stack": {
+      "lib": "aceternity",
+      "cat": "visual",
+      "desc": "Cards stacking on top of each other with interval, great for testimonials."
+    },
+    "code-block": {
+      "lib": "aceternity",
+      "cat": "structure",
+      "desc": "Configurable code block with syntax highlighting."
+    },
+    "colourful-text": {
+      "lib": "aceternity",
+      "cat": "text",
+      "desc": "Text with various colour, filter, and scale effects.",
+      "usage": "<ColourfulText text=\"Highlight\" /> — Text with animated colour/filter effects. Embed in headings."
+    },
+    "comet-card": {
+      "lib": "aceternity",
+      "cat": "visual",
+      "desc": "Perspective 3D tilt card as seen on Perplexity Comet's website."
+    },
+    "compare": {
+      "lib": "aceternity",
+      "cat": "visual",
+      "desc": "Comparison slider between two images, slide or drag to compare."
+    },
+    "container-scroll-animation": {
+      "lib": "aceternity",
+      "cat": "visual",
+      "desc": "Scroll animation that rotates in 3D, perfect for hero/marketing sections.",
+      "usage": "<ContainerScroll titleComponent={<h2>Title</h2>}><img src=\"/images/hero.jpg\" alt=\"\" className=\"rounded-2xl\" /></ContainerScroll> — 3D scroll rotation. Title above, image/content inside."
+    },
+    "container-text-flip": {
+      "lib": "aceternity",
+      "cat": "text",
+      "desc": "Container that flips through words, animating the width."
+    },
+    "cover": {
+      "lib": "aceternity",
+      "cat": "visual",
+      "desc": "Wraps children with beams and space effect, hover to reveal speed."
+    },
+    "direction-aware-hover": {
+      "lib": "aceternity",
+      "cat": "visual",
+      "desc": "Direction-aware hover effect using Framer Motion."
+    },
+    "draggable-card": {
+      "lib": "aceternity",
+      "cat": "visual",
+      "desc": "Tiltable, draggable card that jumps on bounds."
+    },
+    "encrypted-text": {
+      "lib": "aceternity",
+      "cat": "text",
+      "desc": "Text reveals gradually with a gibberish/decryption effect.",
+      "usage": "<EncryptedText text=\"REVEALED\" interval={50} /> — Gibberish decryption reveal effect. Use on key headings."
+    },
+    "evervault-card": {
+      "lib": "aceternity",
+      "cat": "visual",
+      "desc": "Card with hover effect revealing encrypted text and mixed gradient."
+    },
+    "file-upload": {
+      "lib": "aceternity",
+      "cat": "structure",
+      "desc": "Minimal file upload with drag-and-drop and micro interactions."
+    },
+    "flip-words": {
+      "lib": "aceternity",
+      "cat": "text",
+      "desc": "Component that flips through a list of words.",
+      "usage": "Crafted with <FlipWords words={[\"passion\",\"precision\",\"love\"]} /> — Cycles words with animation. Embed INSIDE headings/sentences."
+    },
+    "floating-dock": {
+      "lib": "aceternity",
+      "cat": "navigation",
+      "desc": "macOS-style floating dock component acting as navigation bar."
+    },
+    "floating-navbar": {
+      "lib": "aceternity",
+      "cat": "navigation",
+      "desc": "Sticky navbar that hides on scroll down, reveals on scroll up.",
+      "usage": "<FloatingNav navItems={[{name:\"Home\",link:\"/\",icon:<HomeIcon/>},{name:\"About\",link:\"/about\"}]} /> — Sticky nav that hides on scroll down, shows on scroll up."
+    },
+    "focus-cards": {
+      "lib": "aceternity",
+      "cat": "visual",
+      "desc": "Hover to focus on a card, blurring the rest.",
+      "usage": "<FocusCards cards={[{title:\"Card 1\",src:\"/images/1.jpg\"},{title:\"Card 2\",src:\"/images/2.jpg\"}]} /> — Hover one card to blur the rest. Data-driven."
+    },
+    "glare-card": {
+      "lib": "aceternity",
+      "cat": "visual",
+      "desc": "Glare effect on hover, as seen on Linear's website."
+    },
+    "glowing-effect": {
+      "lib": "aceternity",
+      "cat": "visual",
+      "desc": "Border glowing effect adapting to any container, as seen on Cursor's site.",
+      "usage": "<GlowingEffect spread={40} glow borderRadius=\"12px\" /> — Border glow effect. Place inside a relative container around content."
+    },
+    "glowing-stars": {
+      "lib": "aceternity",
+      "cat": "background",
+      "desc": "Card with background stars that animate on hover.",
+      "usage": "<GlowingStarsBackgroundCard><h3>Title</h3><p>Desc</p></GlowingStarsBackgroundCard> — Card with animated background stars on hover."
+    },
+    "google-gemini-effect": {
+      "lib": "aceternity",
+      "cat": "visual",
+      "desc": "SVG animation effect as seen on the Google Gemini website."
+    },
+    "grid": {
+      "lib": "aceternity",
+      "cat": "background",
+      "desc": "Simple grid and dot backgrounds to make sections stand out."
+    },
+    "hero-highlight": {
+      "lib": "aceternity",
+      "cat": "background",
+      "desc": "Background effect with text highlight, perfect for hero sections.",
+      "usage": "<HeroHighlight containerClassName=\"min-h-[90vh]\"><motion.h1>Title with <Highlight className=\"text-foreground\">emphasis</Highlight></motion.h1>{children}</HeroHighlight> — Wraps hero content with radial gradient that follows mouse."
+    },
+    "hero-parallax": {
+      "lib": "aceternity",
+      "cat": "visual",
+      "desc": "Scroll effect with rotation, translation, and opacity animations.",
+      "usage": "<HeroParallax products={[{title:\"Product\",link:\"#\",thumbnail:\"/images/1.jpg\"}]} /> — Scroll parallax with rotation and translation. Data-driven product grid."
+    },
+    "hover-border-gradient": {
+      "lib": "aceternity",
+      "cat": "visual",
+      "desc": "Hover effect expanding gradient border across the container."
+    },
+    "images-badge": {
+      "lib": "aceternity",
+      "cat": "visual",
+      "desc": "Badge with images that can be hovered to reveal more."
+    },
+    "images-slider": {
+      "lib": "aceternity",
+      "cat": "visual",
+      "desc": "Full-page image slider navigable by keyboard.",
+      "usage": "<ImagesSlider images={[\"/images/1.jpg\",\"/images/2.jpg\"]}><div className=\"z-50\">{overlayContent}</div></ImagesSlider> — Full-page image slider. Content overlays as children."
+    },
+    "infinite-moving-cards": {
+      "lib": "aceternity",
+      "cat": "visual",
+      "desc": "Cards moving infinitely in a loop, great for testimonials.",
+      "usage": "<InfiniteMovingCards items={[{quote:\"Text\",name:\"Name\",title:\"Role\"}]} direction=\"right\" speed=\"slow\" /> — Infinite scroll loop. Great for testimonials/reviews."
+    },
+    "lamp": {
+      "lib": "aceternity",
+      "cat": "visual",
+      "desc": "Lamp light effect as seen on Linear, great for section headers.",
+      "usage": "<LampContainer><motion.h1 className=\"text-4xl font-bold\">Title</motion.h1><motion.p>Subtitle</motion.p></LampContainer> — Lamp light cone effect. All content as motion children."
+    },
+    "layout-grid": {
+      "lib": "aceternity",
+      "cat": "layout",
+      "desc": "Layout effect animating grid items on click with Framer Motion."
+    },
+    "layout-text-flip": {
+      "lib": "aceternity",
+      "cat": "text",
+      "desc": "Text flip effect that changes the layout of surrounding text."
+    },
+    "lens": {
+      "lib": "aceternity",
+      "cat": "visual",
+      "desc": "Lens component to zoom into images, videos, or anything."
+    },
+    "link-preview": {
+      "lib": "aceternity",
+      "cat": "visual",
+      "desc": "Dynamic link previews for anchor tags on hover."
+    },
+    "loader": {
+      "lib": "aceternity",
+      "cat": "structure",
+      "desc": "Simple minimal loaders for loading screens."
+    },
+    "macbook-scroll": {
+      "lib": "aceternity",
+      "cat": "visual",
+      "desc": "Scroll animation where image comes out of screen, as seen on Fey.com."
+    },
+    "meteors": {
+      "lib": "aceternity",
+      "cat": "background",
+      "desc": "Background beams like meteors falling diagonally.",
+      "usage": "<Meteors number={20} /> — Diagonal falling beams. Place inside relative container."
+    },
+    "moving-border": {
+      "lib": "aceternity",
+      "cat": "visual",
+      "desc": "Animated border moving around the container, great for buttons.",
+      "usage": "<Button borderRadius=\"1.75rem\" className=\"bg-card text-foreground border-border\">Text</Button> — from moving-border. Animated border for buttons/containers."
+    },
+    "moving-line": {
+      "lib": "aceternity",
+      "cat": "visual",
+      "desc": "Moving animated line element."
+    },
+    "multi-step-loader": {
+      "lib": "aceternity",
+      "cat": "structure",
+      "desc": "Step loader for screens that take time to load."
+    },
+    "navbar-menu": {
+      "lib": "aceternity",
+      "cat": "navigation",
+      "desc": "Navbar with animated children on hover, makes a beautiful bignav."
+    },
+    "noise-background": {
+      "lib": "aceternity",
+      "cat": "background",
+      "desc": "Dynamic background with animated gradients, noise texture, and smooth motion.",
+      "usage": "<NoiseBackground className=\"min-h-screen\">{children}</NoiseBackground> — Dynamic gradient with noise texture wrapping content."
+    },
+    "parallax-scroll": {
+      "lib": "aceternity",
+      "cat": "visual",
+      "desc": "Grid where two columns scroll in opposite directions for parallax effect."
+    },
+    "parallax-scroll-2": {
+      "lib": "aceternity",
+      "cat": "visual",
+      "desc": "Enhanced parallax scroll grid variant."
+    },
+    "pixelated-canvas": {
+      "lib": "aceternity",
+      "cat": "visual",
+      "desc": "Converts image to pixelated canvas with mouse distortion."
+    },
+    "placeholders-and-vanish-input": {
+      "lib": "aceternity",
+      "cat": "structure",
+      "desc": "Sliding-in placeholders with vanish effect on submit."
+    },
+    "pointer-highlight": {
+      "lib": "aceternity",
+      "cat": "visual",
+      "desc": "Highlights text in view with a pointer and border."
+    },
+    "resizable-navbar": {
+      "lib": "aceternity",
+      "cat": "navigation",
+      "desc": "Navbar that changes width on scroll, responsive and animated."
+    },
+    "shooting-stars": {
+      "lib": "aceternity",
+      "cat": "background",
+      "desc": "Shooting star animation on a starry background."
+    },
+    "sparkles": {
+      "lib": "aceternity",
+      "cat": "background",
+      "desc": "Configurable sparkles as background or standalone component.",
+      "usage": "<SparklesCore id=\"sparkles\" background=\"transparent\" minSize={0.4} maxSize={1} particleDensity={80} className=\"absolute inset-0\" particleColor=\"var(--primary)\" /> — Particle overlay. Absolute position inside relative container."
+    },
+    "spotlight": {
+      "lib": "aceternity",
+      "cat": "background",
+      "desc": "Spotlight effect for drawing attention to an element on the page.",
+      "usage": "<Spotlight className=\"-top-40 left-0 md:left-60 md:-top-20\" fill=\"white\" /> — SVG beam overlay. Place as sibling inside a relative container. Content goes in a separate z-10 div."
+    },
+    "spotlight-new": {
+      "lib": "aceternity",
+      "cat": "background",
+      "desc": "New spotlight component with left/right configurable spotlights."
+    },
+    "stars-background": {
+      "lib": "aceternity",
+      "cat": "background",
+      "desc": "Starry background with twinkling star effects."
+    },
+    "stateful-button": {
+      "lib": "aceternity",
+      "cat": "structure",
+      "desc": "Button showing loading state on click, success when complete."
+    },
+    "sticky-banner": {
+      "lib": "aceternity",
+      "cat": "structure",
+      "desc": "Banner that sticks to top, hides when scrolling down."
+    },
+    "sticky-scroll-reveal": {
+      "lib": "aceternity",
+      "cat": "visual",
+      "desc": "Sticky container with text revealing on scroll.",
+      "usage": "<StickyScroll content={[{title:\"Step 1\",description:\"Detail\",content:<div>Visual</div>}]} /> — Sticky container with progressive text reveal on scroll."
+    },
+    "svg-mask-effect": {
+      "lib": "aceternity",
+      "cat": "visual",
+      "desc": "Mask reveal effect: hover to reveal what's underneath."
+    },
+    "text-generate-effect": {
+      "lib": "aceternity",
+      "cat": "text",
+      "desc": "Text fading in word by word on page load.",
+      "usage": "<TextGenerateEffect words=\"Full sentence that fades in word by word\" className=\"text-4xl\" /> — Word-by-word reveal on mount."
+    },
+    "text-hover-effect": {
+      "lib": "aceternity",
+      "cat": "text",
+      "desc": "Text that animates and outlines gradient on hover."
+    },
+    "text-reveal-card": {
+      "lib": "aceternity",
+      "cat": "text",
+      "desc": "Mousemove effect revealing text content at card bottom."
+    },
+    "timeline": {
+      "lib": "aceternity",
+      "cat": "visual",
+      "desc": "Timeline with sticky header and scroll beam follow.",
+      "usage": "<Timeline data={[{title:\"2024\",content:<div><h4>Event</h4><p>Description</p></div>}]} /> — Vertical timeline with sticky headers and scroll beam."
+    },
+    "tooltip-card": {
+      "lib": "aceternity",
+      "cat": "visual",
+      "desc": "Tooltip card container following mouse pointer on hover."
+    },
+    "tracing-beam": {
+      "lib": "aceternity",
+      "cat": "visual",
+      "desc": "Beam following SVG path as user scrolls, adjusts with speed.",
+      "usage": "<TracingBeam className=\"px-6\"><div>{longContent}</div></TracingBeam> — SVG beam follows scroll. Wrap around long-form content sections."
+    },
+    "typewriter-effect": {
+      "lib": "aceternity",
+      "cat": "text",
+      "desc": "Text generates as if being typed on screen.",
+      "usage": "<TypewriterEffect words={[{text:\"Build\"},{text:\"amazing\",className:\"text-primary\"},{text:\"websites\"}]} /> — Typed text with cursor. Each word can have its own className."
+    },
+    "vortex": {
+      "lib": "aceternity",
+      "cat": "background",
+      "desc": "Wavy swirly vortex background ideal for CTAs.",
+      "usage": "<Vortex className=\"flex flex-col items-center justify-center\">{children}</Vortex> — Swirly vortex background wrapping content."
+    },
+    "wavy-background": {
+      "lib": "aceternity",
+      "cat": "background",
+      "desc": "Cool background with animated moving waves.",
+      "usage": "<WavyBackground className=\"max-w-4xl mx-auto pb-40\">{children}</WavyBackground> — Animated wave backdrop wrapping content."
+    },
+    "wobble-card": {
+      "lib": "aceternity",
+      "cat": "visual",
+      "desc": "Card that translates and scales on mousemove, great for features.",
+      "usage": "<WobbleCard containerClassName=\"col-span-1 bg-card\"><h2>Title</h2><p>Description</p></WobbleCard> — Translates and scales on mousemove."
+    },
+    "world-map": {
+      "lib": "aceternity",
+      "cat": "visual",
+      "desc": "World map with animated lines and dots, programmatically generated."
+    },
+    "ASCIIText": {
+      "lib": "reactbits",
+      "cat": "text",
+      "desc": "Renders text with animated ASCII background for retro feel.",
+      "registry": "starter"
+    },
+    "AnimatedContent": {
+      "lib": "reactbits",
+      "cat": "visual",
+      "desc": "Wrapper animating children on scroll/mount with configurable direction and easing.",
+      "registry": "starter"
+    },
+    "AnimatedList": {
+      "lib": "reactbits",
+      "cat": "visual",
+      "desc": "List items enter with staggered motion variants for polished reveals.",
+      "registry": "starter"
+    },
+    "Antigravity": {
+      "lib": "reactbits",
+      "cat": "background",
+      "desc": "3D antigravity particle field that repels from cursor with smooth motion.",
+      "registry": "starter"
+    },
+    "Aurora": {
+      "lib": "reactbits",
+      "cat": "background",
+      "desc": "Flowing aurora gradient background.",
+      "registry": "starter"
+    },
+    "Balatro": {
+      "lib": "reactbits",
+      "cat": "background",
+      "desc": "The Balatro shader, fully customizable and interactive.",
+      "registry": "starter"
+    },
+    "Ballpit": {
+      "lib": "reactbits",
+      "cat": "background",
+      "desc": "Physics ball pit simulation with bouncing colorful spheres.",
+      "registry": "starter"
+    },
+    "Beams": {
+      "lib": "reactbits",
+      "cat": "background",
+      "desc": "Crossing animated ribbons with customizable properties.",
+      "registry": "starter"
+    },
+    "BlobCursor": {
+      "lib": "reactbits",
+      "cat": "visual",
+      "desc": "Organic blob cursor that follows pointer with inertia and elastic morphing.",
+      "registry": "starter"
+    },
+    "BlurText": {
+      "lib": "reactbits",
+      "cat": "text",
+      "desc": "Text starts blurred then crisply resolves for a soft-focus reveal.",
+      "registry": "starter"
+    },
+    "BounceCards": {
+      "lib": "reactbits",
+      "cat": "visual",
+      "desc": "Cards bounce in on mount.",
+      "registry": "starter"
+    },
+    "BubbleMenu": {
+      "lib": "reactbits",
+      "cat": "navigation",
+      "desc": "Floating circular expanding menu with staggered item reveal.",
+      "registry": "starter"
+    },
+    "CardNav": {
+      "lib": "reactbits",
+      "cat": "navigation",
+      "desc": "Expandable navigation bar with card panels revealing nested links.",
+      "registry": "starter"
+    },
+    "CardSwap": {
+      "lib": "reactbits",
+      "cat": "visual",
+      "desc": "Cards animate position swapping with smooth layout transitions.",
+      "registry": "starter"
+    },
+    "Carousel": {
+      "lib": "reactbits",
+      "cat": "visual",
+      "desc": "Responsive carousel with touch gestures, looping and transitions.",
+      "registry": "starter"
+    },
+    "ChromaGrid": {
+      "lib": "reactbits",
+      "cat": "visual",
+      "desc": "Responsive grid of grayscale tiles revealing colors on hover.",
+      "registry": "starter"
+    },
+    "CircularGallery": {
+      "lib": "reactbits",
+      "cat": "visual",
+      "desc": "Circular orbit gallery rotating images.",
+      "registry": "starter"
+    },
+    "CircularText": {
+      "lib": "reactbits",
+      "cat": "text",
+      "desc": "Characters laid around a circle with optional rotation animation.",
+      "registry": "starter"
+    },
+    "ClickSpark": {
+      "lib": "reactbits",
+      "cat": "visual",
+      "desc": "Particle spark bursts at click position.",
+      "registry": "starter"
+    },
+    "ColorBends": {
+      "lib": "reactbits",
+      "cat": "background",
+      "desc": "Vibrant color bends with smooth flowing animation.",
+      "registry": "starter"
+    },
+    "CountUp": {
+      "lib": "reactbits",
+      "cat": "text",
+      "desc": "Animated number counter supporting formatting and decimals.",
+      "registry": "starter"
+    },
+    "Counter": {
+      "lib": "reactbits",
+      "cat": "visual",
+      "desc": "Flexible animated counter with increments and easing.",
+      "registry": "starter"
+    },
+    "Crosshair": {
+      "lib": "reactbits",
+      "cat": "visual",
+      "desc": "Custom crosshair cursor with tracking and link hover effects.",
+      "registry": "starter"
+    },
+    "Cubes": {
+      "lib": "reactbits",
+      "cat": "visual",
+      "desc": "3D rotating cube cluster supporting auto-rotation or hover.",
+      "registry": "starter"
+    },
+    "CurvedLoop": {
+      "lib": "reactbits",
+      "cat": "text",
+      "desc": "Flowing looping text path along customizable curve with drag.",
+      "registry": "starter"
+    },
+    "DarkVeil": {
+      "lib": "reactbits",
+      "cat": "background",
+      "desc": "Subtle dark background with smooth animation and postprocessing.",
+      "registry": "starter"
+    },
+    "DecayCard": {
+      "lib": "reactbits",
+      "cat": "visual",
+      "desc": "Hover parallax effect that disintegrates card content.",
+      "registry": "starter"
+    },
+    "DecryptedText": {
+      "lib": "reactbits",
+      "cat": "text",
+      "desc": "Hacker-style decryption cycling random glyphs until resolving to text.",
+      "registry": "starter"
+    },
+    "Dither": {
+      "lib": "reactbits",
+      "cat": "background",
+      "desc": "Retro dithered noise shader background.",
+      "registry": "starter"
+    },
+    "Dock": {
+      "lib": "reactbits",
+      "cat": "navigation",
+      "desc": "macOS-style magnifying dock with proximity scaling of icons.",
+      "registry": "starter"
+    },
+    "DomeGallery": {
+      "lib": "reactbits",
+      "cat": "visual",
+      "desc": "Immersive 3D dome gallery projecting images on hemispheric surface.",
+      "registry": "starter"
+    },
+    "DotGrid": {
+      "lib": "reactbits",
+      "cat": "background",
+      "desc": "Animated dot grid with cursor interactions.",
+      "registry": "starter"
+    },
+    "ElasticSlider": {
+      "lib": "reactbits",
+      "cat": "visual",
+      "desc": "Slider handle stretches elastically then snaps with spring physics.",
+      "registry": "starter"
+    },
+    "ElectricBorder": {
+      "lib": "reactbits",
+      "cat": "visual",
+      "desc": "Jittery electric energy border with animated arcs and glow.",
+      "registry": "starter"
+    },
+    "FadeContent": {
+      "lib": "reactbits",
+      "cat": "visual",
+      "desc": "Directional fade/slide entrance wrapper with threshold activation.",
+      "registry": "starter"
+    },
+    "FallingText": {
+      "lib": "reactbits",
+      "cat": "text",
+      "desc": "Characters fall with gravity and bounce for playful entrance.",
+      "registry": "starter"
+    },
+    "FaultyTerminal": {
+      "lib": "reactbits",
+      "cat": "background",
+      "desc": "Terminal CRT scanline effect with flicker and noise.",
+      "registry": "starter"
+    },
+    "FloatingLines": {
+      "lib": "reactbits",
+      "cat": "background",
+      "desc": "3D floating lines reacting to cursor movement.",
+      "registry": "starter"
+    },
+    "FlowingMenu": {
+      "lib": "reactbits",
+      "cat": "navigation",
+      "desc": "Liquid flowing active indicator gliding between menu items.",
+      "registry": "starter"
+    },
+    "FluidGlass": {
+      "lib": "reactbits",
+      "cat": "visual",
+      "desc": "Glassmorphism container with animated liquid distortion refraction.",
+      "registry": "starter"
+    },
+    "FlyingPosters": {
+      "lib": "reactbits",
+      "cat": "visual",
+      "desc": "3D posters rotating on scroll infinitely.",
+      "registry": "starter"
+    },
+    "Folder": {
+      "lib": "reactbits",
+      "cat": "visual",
+      "desc": "Interactive folder opening to reveal nested content.",
+      "registry": "starter"
+    },
+    "FuzzyText": {
+      "lib": "reactbits",
+      "cat": "text",
+      "desc": "Vibrating fuzzy text with controllable hover intensity.",
+      "registry": "starter"
+    },
+    "Galaxy": {
+      "lib": "reactbits",
+      "cat": "background",
+      "desc": "Parallax realistic starfield with pointer interactions.",
+      "registry": "starter"
+    },
+    "GhostCursor": {
+      "lib": "reactbits",
+      "cat": "visual",
+      "desc": "Semi-transparent ghost cursor trailing the real cursor.",
+      "registry": "starter"
+    },
+    "GlareHover": {
+      "lib": "reactbits",
+      "cat": "visual",
+      "desc": "Realistic moving glare highlight on hover over any element.",
+      "registry": "starter"
+    },
+    "GlassIcons": {
+      "lib": "reactbits",
+      "cat": "visual",
+      "desc": "Icon set styled with frosted glass blur.",
+      "registry": "starter"
+    },
+    "GlassSurface": {
+      "lib": "reactbits",
+      "cat": "visual",
+      "desc": "Apple-style glass surface with real-time distortion and lighting.",
+      "registry": "starter"
+    },
+    "GlitchText": {
+      "lib": "reactbits",
+      "cat": "text",
+      "desc": "RGB split and distortion glitch effect with jitter.",
+      "registry": "starter"
+    },
+    "GooeyNav": {
+      "lib": "reactbits",
+      "cat": "navigation",
+      "desc": "Navigation with gooey blob transitions between items.",
+      "registry": "starter"
+    },
+    "GradientBlinds": {
+      "lib": "reactbits",
+      "cat": "background",
+      "desc": "Layered gradient blinds with spotlight and noise distortion.",
+      "registry": "starter"
+    },
+    "GradientText": {
+      "lib": "reactbits",
+      "cat": "text",
+      "desc": "Animated gradient sweep across text with speed and color control.",
+      "registry": "starter"
+    },
+    "GradualBlur": {
+      "lib": "reactbits",
+      "cat": "visual",
+      "desc": "Progressively un-blurs content on scroll for cinematic reveal.",
+      "registry": "starter"
+    },
+    "Grainient": {
+      "lib": "reactbits",
+      "cat": "background",
+      "desc": "Grainy gradient swirls with soft wave distortion.",
+      "registry": "starter"
+    },
+    "GridDistortion": {
+      "lib": "reactbits",
+      "cat": "background",
+      "desc": "Warped grid mesh distorting smoothly reacting to cursor.",
+      "registry": "starter"
+    },
+    "GridMotion": {
+      "lib": "reactbits",
+      "cat": "background",
+      "desc": "Perspective moving grid lines based on cursor position.",
+      "registry": "starter"
+    },
+    "GridScan": {
+      "lib": "reactbits",
+      "cat": "background",
+      "desc": "Animated grid room 3D scan effect with interactions.",
+      "registry": "starter"
+    },
+    "Hyperspeed": {
+      "lib": "reactbits",
+      "cat": "background",
+      "desc": "Lines simulating hyperspace travel on click hold.",
+      "registry": "starter"
+    },
+    "ImageTrail": {
+      "lib": "reactbits",
+      "cat": "visual",
+      "desc": "Cursor-based image trail with several built-in variants.",
+      "registry": "starter"
+    },
+    "InfiniteMenu": {
+      "lib": "reactbits",
+      "cat": "navigation",
+      "desc": "Horizontally looping menu scrolling endlessly with seamless wrap.",
+      "registry": "starter"
+    },
+    "Iridescence": {
+      "lib": "reactbits",
+      "cat": "background",
+      "desc": "Slick iridescent shader with shifting waves.",
+      "registry": "starter"
+    },
+    "Lanyard": {
+      "lib": "reactbits",
+      "cat": "visual",
+      "desc": "Swinging 3D lanyard/badge card with realistic inertial motion.",
+      "registry": "starter"
+    },
+    "LaserFlow": {
+      "lib": "reactbits",
+      "cat": "visual",
+      "desc": "Dynamic laser light flowing onto a surface.",
+      "registry": "starter"
+    },
+    "LetterGlitch": {
+      "lib": "reactbits",
+      "cat": "background",
+      "desc": "Matrix-style letter animation.",
+      "registry": "starter"
+    },
+    "LightPillar": {
+      "lib": "reactbits",
+      "cat": "background",
+      "desc": "Vertical pillar of light with glow effects.",
+      "registry": "starter"
+    },
+    "LightRays": {
+      "lib": "reactbits",
+      "cat": "background",
+      "desc": "Volumetric light rays/beams with customizable direction.",
+      "registry": "starter"
+    },
+    "Lightning": {
+      "lib": "reactbits",
+      "cat": "background",
+      "desc": "Procedural lightning bolts with branching and glow flicker.",
+      "registry": "starter"
+    },
+    "LiquidChrome": {
+      "lib": "reactbits",
+      "cat": "background",
+      "desc": "Liquid metallic chrome shader with flowing reflective surface.",
+      "registry": "starter"
+    },
+    "LiquidEther": {
+      "lib": "reactbits",
+      "cat": "background",
+      "desc": "Interactive liquid shader with flowing distortion and customizable colors.",
+      "registry": "starter"
+    },
+    "LogoLoop": {
+      "lib": "reactbits",
+      "cat": "visual",
+      "desc": "Continuously looping marquee of brand logos with hover pause.",
+      "registry": "starter"
+    },
+    "MagicBento": {
+      "lib": "reactbits",
+      "cat": "layout",
+      "desc": "Interactive bento grid tiles expanding and animating.",
+      "registry": "starter"
+    },
+    "Magnet": {
+      "lib": "reactbits",
+      "cat": "visual",
+      "desc": "Elements magnetically ease toward cursor then settle with spring physics.",
+      "registry": "starter"
+    },
+    "MagnetLines": {
+      "lib": "reactbits",
+      "cat": "visual",
+      "desc": "Animated field lines bending toward the cursor.",
+      "registry": "starter"
+    },
+    "Masonry": {
+      "lib": "reactbits",
+      "cat": "layout",
+      "desc": "Responsive masonry layout with animated reflow and gap optimization.",
+      "registry": "starter"
+    },
+    "MetaBalls": {
+      "lib": "reactbits",
+      "cat": "background",
+      "desc": "Liquid metaball blobs merging and separating with smooth animation.",
+      "registry": "starter"
+    },
+    "MetallicPaint": {
+      "lib": "reactbits",
+      "cat": "visual",
+      "desc": "Liquid metallic paint shader applicable to SVG elements.",
+      "registry": "starter"
+    },
+    "ModelViewer": {
+      "lib": "reactbits",
+      "cat": "visual",
+      "desc": "Three.js model viewer with orbit controls and lighting presets.",
+      "registry": "starter"
+    },
+    "Noise": {
+      "lib": "reactbits",
+      "cat": "background",
+      "desc": "Animated film grain/noise overlay adding subtle texture.",
+      "registry": "starter"
+    },
+    "Orb": {
+      "lib": "reactbits",
+      "cat": "background",
+      "desc": "Floating energy orb with customizable hover effect.",
+      "registry": "starter"
+    },
+    "OrbitImages": {
+      "lib": "reactbits",
+      "cat": "visual",
+      "desc": "SVG path customizable orbiting images effect.",
+      "registry": "starter"
+    },
+    "Particles": {
+      "lib": "reactbits",
+      "cat": "background",
+      "desc": "Configurable particle system.",
+      "registry": "starter"
+    },
+    "PillNav": {
+      "lib": "reactbits",
+      "cat": "navigation",
+      "desc": "Minimal pill nav with sliding active highlight.",
+      "registry": "starter"
+    },
+    "PixelBlast": {
+      "lib": "reactbits",
+      "cat": "background",
+      "desc": "Exploding pixel particle bursts with optional liquid postprocessing.",
+      "registry": "starter"
+    },
+    "PixelCard": {
+      "lib": "reactbits",
+      "cat": "visual",
+      "desc": "Card content revealed through pixel expansion transition.",
+      "registry": "starter"
+    },
+    "PixelSnow": {
+      "lib": "reactbits",
+      "cat": "background",
+      "desc": "Falling pixelated snow with customizable density and speed.",
+      "registry": "starter"
+    },
+    "PixelTrail": {
+      "lib": "reactbits",
+      "cat": "visual",
+      "desc": "Pixelated cursor trail emitting fading squares with retro feel.",
+      "registry": "starter"
+    },
+    "PixelTransition": {
+      "lib": "reactbits",
+      "cat": "visual",
+      "desc": "Pixel dissolve transition for content reveal on hover.",
+      "registry": "starter"
+    },
+    "Plasma": {
+      "lib": "reactbits",
+      "cat": "background",
+      "desc": "Organic plasma gradients swirling with smooth turbulence.",
+      "registry": "starter"
+    },
+    "Prism": {
+      "lib": "reactbits",
+      "cat": "background",
+      "desc": "Rotating prism with configurable intensity, size, and colors.",
+      "registry": "starter"
+    },
+    "PrismaticBurst": {
+      "lib": "reactbits",
+      "cat": "background",
+      "desc": "Burst of light rays with controllable color and distortion.",
+      "registry": "starter"
+    },
+    "ProfileCard": {
+      "lib": "reactbits",
+      "cat": "visual",
+      "desc": "Animated profile card with 3D hover effect and glare.",
+      "registry": "starter"
+    },
+    "ReflectiveCard": {
+      "lib": "reactbits",
+      "cat": "visual",
+      "desc": "Card with dynamic webcam reflection and glare responding to cursor.",
+      "registry": "starter"
+    },
+    "Ribbons": {
+      "lib": "reactbits",
+      "cat": "background",
+      "desc": "Flowing responsive ribbons driven by physics and pointer motion.",
+      "registry": "starter"
+    },
+    "RippleGrid": {
+      "lib": "reactbits",
+      "cat": "background",
+      "desc": "Grid continuously animating with a ripple effect.",
+      "registry": "starter"
+    },
+    "RotatingText": {
+      "lib": "reactbits",
+      "cat": "text",
+      "desc": "Cycles through phrases with 3D rotate/flip transitions.",
+      "registry": "starter"
+    },
+    "ScrambledText": {
+      "lib": "reactbits",
+      "cat": "text",
+      "desc": "Detects cursor position and applies distortion to text.",
+      "registry": "starter"
+    },
+    "ScrollFloat": {
+      "lib": "reactbits",
+      "cat": "text",
+      "desc": "Text gently floats/parallax shifts on scroll.",
+      "registry": "starter"
+    },
+    "ScrollReveal": {
+      "lib": "reactbits",
+      "cat": "text",
+      "desc": "Text gently unblurs and reveals on scroll.",
+      "registry": "starter"
+    },
+    "ScrollStack": {
+      "lib": "reactbits",
+      "cat": "visual",
+      "desc": "Overlapping card stack revealing on scroll with depth layering.",
+      "registry": "starter"
+    },
+    "ScrollVelocity": {
+      "lib": "reactbits",
+      "cat": "text",
+      "desc": "Text marquee whose speed scales with user's scroll velocity.",
+      "registry": "starter"
+    },
+    "ShapeBlur": {
+      "lib": "reactbits",
+      "cat": "visual",
+      "desc": "Morphing blurred geometric shape with hover effect.",
+      "registry": "starter"
+    },
+    "ShinyText": {
+      "lib": "reactbits",
+      "cat": "text",
+      "desc": "Metallic sheen sweeping across text producing reflective highlight.",
+      "registry": "starter"
+    },
+    "Shuffle": {
+      "lib": "reactbits",
+      "cat": "text",
+      "desc": "Animated text reveal where characters shuffle before settling.",
+      "registry": "starter"
+    },
+    "Silk": {
+      "lib": "reactbits",
+      "cat": "background",
+      "desc": "Smooth waves background with soft lighting.",
+      "registry": "starter"
+    },
+    "SplashCursor": {
+      "lib": "reactbits",
+      "cat": "visual",
+      "desc": "Liquid splash burst at cursor with curling ripples and waves.",
+      "registry": "starter"
+    },
+    "SplitText": {
+      "lib": "reactbits",
+      "cat": "text",
+      "desc": "Splits text into characters/words for staggered entrance animation.",
+      "registry": "starter"
+    },
+    "SpotlightCard": {
+      "lib": "reactbits",
+      "cat": "visual",
+      "desc": "Dynamic spotlight follows cursor casting gradient illumination.",
+      "registry": "starter"
+    },
+    "Squares": {
+      "lib": "reactbits",
+      "cat": "background",
+      "desc": "Animated squares with scaling and direction customization.",
+      "registry": "starter"
+    },
+    "Stack": {
+      "lib": "reactbits",
+      "cat": "visual",
+      "desc": "Layered stack with swipe animations, autoplay, and smooth transitions.",
+      "registry": "starter"
+    },
+    "StaggeredMenu": {
+      "lib": "reactbits",
+      "cat": "navigation",
+      "desc": "Menu with staggered item animations on open/close.",
+      "registry": "starter"
+    },
+    "StarBorder": {
+      "lib": "reactbits",
+      "cat": "visual",
+      "desc": "Animated sparkle border orbiting content with twinkle pulses.",
+      "registry": "starter"
+    },
+    "Stepper": {
+      "lib": "reactbits",
+      "cat": "visual",
+      "desc": "Animated multi-step progress indicator with active state transitions.",
+      "registry": "starter"
+    },
+    "StickerPeel": {
+      "lib": "reactbits",
+      "cat": "visual",
+      "desc": "Sticker corner lift and peel interaction with 3D transform.",
+      "registry": "starter"
+    },
+    "TargetCursor": {
+      "lib": "reactbits",
+      "cat": "visual",
+      "desc": "Cursor follow animation with 4 corners locking onto targets.",
+      "registry": "starter"
+    },
+    "TextCursor": {
+      "lib": "reactbits",
+      "cat": "text",
+      "desc": "Text element follows cursor, leaving a trail of copies behind.",
+      "registry": "starter"
+    },
+    "TextPressure": {
+      "lib": "reactbits",
+      "cat": "text",
+      "desc": "Characters scale/warp interactively based on pointer pressure zone.",
+      "registry": "starter"
+    },
+    "TextType": {
+      "lib": "reactbits",
+      "cat": "text",
+      "desc": "Typewriter effect with blinking cursor and adjustable typing cadence.",
+      "registry": "starter"
+    },
+    "Threads": {
+      "lib": "reactbits",
+      "cat": "background",
+      "desc": "Animated pattern of lines forming fabric-like motion.",
+      "registry": "starter"
+    },
+    "TiltedCard": {
+      "lib": "reactbits",
+      "cat": "visual",
+      "desc": "3D perspective tilt card reacting to pointer.",
+      "registry": "starter"
+    },
+    "TrueFocus": {
+      "lib": "reactbits",
+      "cat": "text",
+      "desc": "Dynamic blur/clarity applied over words in sequence.",
+      "registry": "starter"
+    },
+    "VariableProximity": {
+      "lib": "reactbits",
+      "cat": "text",
+      "desc": "Letter styling changes continuously with pointer distance mapping.",
+      "registry": "starter"
+    },
+    "Waves": {
+      "lib": "reactbits",
+      "cat": "background",
+      "desc": "Layered lines forming smooth wave patterns with animation.",
+      "registry": "starter"
+    },
+    "hero-1": {
+      "lib": "reactbits-pro",
+      "cat": "block-hero",
+      "desc": "Clean two-column hero with CTA and social proof.",
+      "registry": "pro"
+    },
+    "hero-2": {
+      "lib": "reactbits-pro",
+      "cat": "block-hero",
+      "desc": "Curved bento grid hero with cursor following effect.",
+      "registry": "pro"
+    },
+    "hero-3": {
+      "lib": "reactbits-pro",
+      "cat": "block-hero",
+      "desc": "Rounded WebGL gradient shader with cursor interaction.",
+      "registry": "pro"
+    },
+    "hero-4": {
+      "lib": "reactbits-pro",
+      "cat": "block-hero",
+      "desc": "Infinite scrolling video carousel marquee.",
+      "registry": "pro"
+    },
+    "hero-5": {
+      "lib": "reactbits-pro",
+      "cat": "block-hero",
+      "desc": "Gradient background with floating orbs and cursor parallax.",
+      "registry": "pro"
+    },
+    "hero-6": {
+      "lib": "reactbits-pro",
+      "cat": "block-hero",
+      "desc": "Auto-rotating carousel with vertical progress line and slide transitions.",
+      "registry": "pro"
+    },
+    "hero-7": {
+      "lib": "reactbits-pro",
+      "cat": "block-hero",
+      "desc": "3D rotating image carousel with pink glow bar and particles.",
+      "registry": "pro"
+    },
+    "hero-8": {
+      "lib": "reactbits-pro",
+      "cat": "block-hero",
+      "desc": "Large typography with expandable media tiles between text.",
+      "registry": "pro"
+    },
+    "hero-9": {
+      "lib": "reactbits-pro",
+      "cat": "block-hero",
+      "desc": "Full-screen video background with blur text reveal animation.",
+      "registry": "pro"
+    },
+    "hero-10": {
+      "lib": "reactbits-pro",
+      "cat": "block-hero",
+      "desc": "Centered text with three stacked card elements.",
+      "registry": "pro"
+    },
+    "hero-11": {
+      "lib": "reactbits-pro",
+      "cat": "block-hero",
+      "desc": "Minimal design with wireframe corners.",
+      "registry": "pro"
+    },
+    "hero-12": {
+      "lib": "reactbits-pro",
+      "cat": "block-hero",
+      "desc": "Background image with curved shape text overlays.",
+      "registry": "pro"
+    },
+    "hero-13": {
+      "lib": "reactbits-pro",
+      "cat": "block-hero",
+      "desc": "Clean hero with glow separator and floating icons.",
+      "registry": "pro"
+    },
+    "features-1": {
+      "lib": "reactbits-pro",
+      "cat": "block-features",
+      "desc": "8-item grid with bordered icons and descriptions.",
+      "registry": "pro"
+    },
+    "features-2": {
+      "lib": "reactbits-pro",
+      "cat": "block-features",
+      "desc": "Two-column layout with auto-cycling carousel and animated glass overlay cards.",
+      "registry": "pro"
+    },
+    "features-3": {
+      "lib": "reactbits-pro",
+      "cat": "block-features",
+      "desc": "Grid with opposite-scrolling vertical marquees and gradient fades.",
+      "registry": "pro"
+    },
+    "features-4": {
+      "lib": "reactbits-pro",
+      "cat": "block-features",
+      "desc": "Auto-cycling tabbed interface with smooth transitions and feature lists.",
+      "registry": "pro"
+    },
+    "features-5": {
+      "lib": "reactbits-pro",
+      "cat": "block-features",
+      "desc": "6-card grid with icons, CTAs, and dashed fade background.",
+      "registry": "pro"
+    },
+    "social-proof-1": {
+      "lib": "reactbits-pro",
+      "cat": "block-social",
+      "desc": "Simple logo grid with bordered cells and hover effects.",
+      "registry": "pro"
+    },
+    "social-proof-2": {
+      "lib": "reactbits-pro",
+      "cat": "block-social",
+      "desc": "Customer showcase with dual opposite-scrolling marquees and gradient fades.",
+      "registry": "pro"
+    },
+    "social-proof-3": {
+      "lib": "reactbits-pro",
+      "cat": "block-social",
+      "desc": "Bento-style testimonial grid with backdrop blur cards and gradient background.",
+      "registry": "pro"
+    },
+    "social-proof-4": {
+      "lib": "reactbits-pro",
+      "cat": "block-social",
+      "desc": "Wall of love with 3-column scrolling marquee and glass-bordered testimonial cards.",
+      "registry": "pro"
+    },
+    "social-proof-5": {
+      "lib": "reactbits-pro",
+      "cat": "block-social",
+      "desc": "Auto-cycling testimonials with avatar carousel and circular progress indicators.",
+      "registry": "pro"
+    },
+    "social-proof-6": {
+      "lib": "reactbits-pro",
+      "cat": "block-social",
+      "desc": "Vertical logo carousel with glass overlay and gradient.",
+      "registry": "pro"
+    },
+    "social-proof-7": {
+      "lib": "reactbits-pro",
+      "cat": "block-social",
+      "desc": "Full-width video player with description and logo marquee.",
+      "registry": "pro"
+    },
+    "social-proof-8": {
+      "lib": "reactbits-pro",
+      "cat": "block-social",
+      "desc": "Testimonial slider with progress indicators and floating button.",
+      "registry": "pro"
+    },
+    "social-proof-9": {
+      "lib": "reactbits-pro",
+      "cat": "block-social",
+      "desc": "Minimal dual opposite-scrolling marquees with gradient fades.",
+      "registry": "pro"
+    },
+    "contact-1": {
+      "lib": "reactbits-pro",
+      "cat": "block-contact",
+      "desc": "Three-card grid layout with pill badges and call-to-action links.",
+      "registry": "pro"
+    },
+    "contact-2": {
+      "lib": "reactbits-pro",
+      "cat": "block-contact",
+      "desc": "Two-column layout with company info and full contact form.",
+      "registry": "pro"
+    },
+    "contact-3": {
+      "lib": "reactbits-pro",
+      "cat": "block-contact",
+      "desc": "Simple centered layout with three square icon cards for contact methods.",
+      "registry": "pro"
+    },
+    "contact-4": {
+      "lib": "reactbits-pro",
+      "cat": "block-contact",
+      "desc": "Large image with glass card overlay and structured contact information.",
+      "registry": "pro"
+    },
+    "contact-5": {
+      "lib": "reactbits-pro",
+      "cat": "block-contact",
+      "desc": "Two-column layout with detailed contact info and auto-playing image carousel.",
+      "registry": "pro"
+    },
+    "footer-1": {
+      "lib": "reactbits-pro",
+      "cat": "block-footer",
+      "desc": "Four-column layout with branding, outlined link cards, and large background text.",
+      "registry": "pro"
+    },
+    "footer-2": {
+      "lib": "reactbits-pro",
+      "cat": "block-footer",
+      "desc": "Centered footer with curved SVG overlays, social icons, and image background.",
+      "registry": "pro"
+    },
+    "footer-3": {
+      "lib": "reactbits-pro",
+      "cat": "block-footer",
+      "desc": "Full-width CTA button with yellow hover, description, two-column links.",
+      "registry": "pro"
+    },
+    "footer-4": {
+      "lib": "reactbits-pro",
+      "cat": "block-footer",
+      "desc": "Bold headline, newsletter signup with email input, four-column links.",
+      "registry": "pro"
+    },
+    "footer-5": {
+      "lib": "reactbits-pro",
+      "cat": "block-footer",
+      "desc": "Card footer with staggered fade background.",
+      "registry": "pro"
+    },
+    "footer-6": {
+      "lib": "reactbits-pro",
+      "cat": "block-footer",
+      "desc": "Two row footer with categories and large links.",
+      "registry": "pro"
+    },
+    "comparison-1": {
+      "lib": "reactbits-pro",
+      "cat": "block-comparison",
+      "desc": "Two-column layout with brand logos, checkmark feature comparison, and CTA.",
+      "registry": "pro"
+    },
+    "comparison-2": {
+      "lib": "reactbits-pro",
+      "cat": "block-comparison",
+      "desc": "Pricing comparison table with plan toggle, colored border highlight.",
+      "registry": "pro"
+    },
+    "comparison-3": {
+      "lib": "reactbits-pro",
+      "cat": "block-comparison",
+      "desc": "Visual bar chart comparison with animated rising bars and G2 scores.",
+      "registry": "pro"
+    },
+    "navigation-1": {
+      "lib": "reactbits-pro",
+      "cat": "block-nav",
+      "desc": "Classic top nav with dropdown menus and mobile overlay.",
+      "registry": "pro"
+    },
+    "navigation-2": {
+      "lib": "reactbits-pro",
+      "cat": "block-nav",
+      "desc": "Centered rounded nav with glass effect and expanding card dropdowns.",
+      "registry": "pro"
+    },
+    "navigation-3": {
+      "lib": "reactbits-pro",
+      "cat": "block-nav",
+      "desc": "Logo left, grouped center links, auth buttons right with mobile menu.",
+      "registry": "pro"
+    },
+    "navigation-4": {
+      "lib": "reactbits-pro",
+      "cat": "block-nav",
+      "desc": "Vertical side nav with dock-style hover scaling and tooltips.",
+      "registry": "pro"
+    },
+    "navigation-5": {
+      "lib": "reactbits-pro",
+      "cat": "block-nav",
+      "desc": "Fixed bottom nav that expands upward with full menu and social links.",
+      "registry": "pro"
+    },
+    "navigation-6": {
+      "lib": "reactbits-pro",
+      "cat": "block-nav",
+      "desc": "Responsive top nav with full screen menu and image preview.",
+      "registry": "pro"
+    },
+    "navigation-7": {
+      "lib": "reactbits-pro",
+      "cat": "block-nav",
+      "desc": "Top nav with rounded items and dropdown menus.",
+      "registry": "pro"
+    },
+    "navigation-8": {
+      "lib": "reactbits-pro",
+      "cat": "block-nav",
+      "desc": "Bottom nav with blurred background and image previews.",
+      "registry": "pro"
+    },
+    "auth-1": {
+      "lib": "reactbits-pro",
+      "cat": "block-auth",
+      "desc": "Split layout with sign-in form and animated testimonial marquee.",
+      "registry": "pro"
+    },
+    "auth-2": {
+      "lib": "reactbits-pro",
+      "cat": "block-auth",
+      "desc": "Split layout with gradient background, OAuth buttons, and sign-in form.",
+      "registry": "pro"
+    },
+    "auth-3": {
+      "lib": "reactbits-pro",
+      "cat": "block-auth",
+      "desc": "Centered card with OAuth options and floating brand section over background.",
+      "registry": "pro"
+    },
+    "cta-1": {
+      "lib": "reactbits-pro",
+      "cat": "block-cta",
+      "desc": "Centered sign-up form with cursor-parallax floating background cards.",
+      "registry": "pro"
+    },
+    "cta-2": {
+      "lib": "reactbits-pro",
+      "cat": "block-cta",
+      "desc": "Full-screen centered CTA with GSAP-powered cursor trail image effect.",
+      "registry": "pro"
+    },
+    "cta-3": {
+      "lib": "reactbits-pro",
+      "cat": "block-cta",
+      "desc": "DevOps deployment CTA with animated rotating SVG circles and 3D card.",
+      "registry": "pro"
+    },
+    "cta-4": {
+      "lib": "reactbits-pro",
+      "cat": "block-cta",
+      "desc": "Centered CTA with infinitely scrolling cards.",
+      "registry": "pro"
+    },
+    "cta-5": {
+      "lib": "reactbits-pro",
+      "cat": "block-cta",
+      "desc": "Rounded video mask with CTA content below.",
+      "registry": "pro"
+    },
+    "faq-1": {
+      "lib": "reactbits-pro",
+      "cat": "block-faq",
+      "desc": "Classic two-column FAQ with sticky title and animated accordion.",
+      "registry": "pro"
+    },
+    "faq-2": {
+      "lib": "reactbits-pro",
+      "cat": "block-faq",
+      "desc": "Message-style FAQ with chat bubbles.",
+      "registry": "pro"
+    },
+    "faq-3": {
+      "lib": "reactbits-pro",
+      "cat": "block-faq",
+      "desc": "Multi-category tabbed FAQ with animated accordions.",
+      "registry": "pro"
+    },
+    "pricing-1": {
+      "lib": "reactbits-pro",
+      "cat": "block-pricing",
+      "desc": "Three-tier pricing with yearly/monthly toggle and feature highlights.",
+      "registry": "pro"
+    },
+    "pricing-2": {
+      "lib": "reactbits-pro",
+      "cat": "block-pricing",
+      "desc": "Bento-style layout with free card, dual-plan toggle, and animated prices.",
+      "registry": "pro"
+    },
+    "pricing-3": {
+      "lib": "reactbits-pro",
+      "cat": "block-pricing",
+      "desc": "Minimal three-card layout with bold typography and simple feature lists.",
+      "registry": "pro"
+    },
+    "pricing-4": {
+      "lib": "reactbits-pro",
+      "cat": "block-pricing",
+      "desc": "Two-section hero with large headline and detailed feature comparison cards.",
+      "registry": "pro"
+    },
+    "pricing-5": {
+      "lib": "reactbits-pro",
+      "cat": "block-pricing",
+      "desc": "United cards with glowing button.",
+      "registry": "pro"
+    },
+    "pricing-6": {
+      "lib": "reactbits-pro",
+      "cat": "block-pricing",
+      "desc": "Three card layout with highlighted middle card.",
+      "registry": "pro"
+    },
+    "stats-1": {
+      "lib": "reactbits-pro",
+      "cat": "block-stats",
+      "desc": "Two-column layout with stacked bar chart.",
+      "registry": "pro"
+    },
+    "stats-2": {
+      "lib": "reactbits-pro",
+      "cat": "block-stats",
+      "desc": "Full-width stats card with circular comparison charts.",
+      "registry": "pro"
+    },
+    "stats-3": {
+      "lib": "reactbits-pro",
+      "cat": "block-stats",
+      "desc": "Stats section with animated marquee mask effect.",
+      "registry": "pro"
+    },
+    "stats-4": {
+      "lib": "reactbits-pro",
+      "cat": "block-stats",
+      "desc": "Two-column layout with 2x2 grid of stat cards.",
+      "registry": "pro"
+    },
+    "stats-5": {
+      "lib": "reactbits-pro",
+      "cat": "block-stats",
+      "desc": "Full-width colored card with world map background and stats grid.",
+      "registry": "pro"
+    },
+    "stats-6": {
+      "lib": "reactbits-pro",
+      "cat": "block-stats",
+      "desc": "Asymmetrical layout with mobile device mockups and parallax stat circles.",
+      "registry": "pro"
+    },
+    "stats-7": {
+      "lib": "reactbits-pro",
+      "cat": "block-stats",
+      "desc": "Two-column layout with animated bar charts.",
+      "registry": "pro"
+    },
+    "stats-8": {
+      "lib": "reactbits-pro",
+      "cat": "block-stats",
+      "desc": "Two-column large stats display with chart visualization.",
+      "registry": "pro"
+    },
+    "404-1": {
+      "lib": "reactbits-pro",
+      "cat": "block-404",
+      "desc": "Minimalist 404 page with title and card grid.",
+      "registry": "pro"
+    },
+    "404-2": {
+      "lib": "reactbits-pro",
+      "cat": "block-404",
+      "desc": "Full screen 404 text with centered layout and navigation button.",
+      "registry": "pro"
+    },
+    "profile-1": {
+      "lib": "reactbits-pro",
+      "cat": "block-profile",
+      "desc": "Simple profile card with avatar, bio, and action buttons.",
+      "registry": "pro"
+    },
+    "profile-2": {
+      "lib": "reactbits-pro",
+      "cat": "block-profile",
+      "desc": "Tabbed user profile card.",
+      "registry": "pro"
+    },
+    "profile-3": {
+      "lib": "reactbits-pro",
+      "cat": "block-profile",
+      "desc": "Minimal profile card with smooth fade effect.",
+      "registry": "pro"
+    },
+    "about-1": {
+      "lib": "reactbits-pro",
+      "cat": "block-about",
+      "desc": "Two-column carousel with auto-cycling images and text.",
+      "registry": "pro"
+    },
+    "about-2": {
+      "lib": "reactbits-pro",
+      "cat": "block-about",
+      "desc": "Timeline with horizontal progress bar.",
+      "registry": "pro"
+    },
+    "about-3": {
+      "lib": "reactbits-pro",
+      "cat": "block-about",
+      "desc": "Glass cards with metrics overlay.",
+      "registry": "pro"
+    },
+    "about-4": {
+      "lib": "reactbits-pro",
+      "cat": "block-about",
+      "desc": "Three-column layout with cycling progress circle.",
+      "registry": "pro"
+    },
+    "about-5": {
+      "lib": "reactbits-pro",
+      "cat": "block-about",
+      "desc": "Infinite horizontal scroll with bento cards.",
+      "registry": "pro"
+    },
+    "waitlist-1": {
+      "lib": "reactbits-pro",
+      "cat": "block-waitlist",
+      "desc": "Waitlist signup with animated vertical marquees.",
+      "registry": "pro"
+    },
+    "waitlist-2": {
+      "lib": "reactbits-pro",
+      "cat": "block-waitlist",
+      "desc": "Centered waitlist signup with large title and fading card.",
+      "registry": "pro"
+    },
+    "waitlist-3": {
+      "lib": "reactbits-pro",
+      "cat": "block-waitlist",
+      "desc": "Rounded waitlist card with top SVG insert and image.",
+      "registry": "pro"
+    },
+    "showcase-1": {
+      "lib": "reactbits-pro",
+      "cat": "block-showcase",
+      "desc": "Animated background showcase with four items.",
+      "registry": "pro"
+    },
+    "showcase-2": {
+      "lib": "reactbits-pro",
+      "cat": "block-showcase",
+      "desc": "Draggable infinite horizontal carousel with 3D hover effect.",
+      "registry": "pro"
+    },
+    "showcase-3": {
+      "lib": "reactbits-pro",
+      "cat": "block-showcase",
+      "desc": "3D triangular carousel with drag and snap.",
+      "registry": "pro"
+    },
+    "how-it-works-1": {
+      "lib": "reactbits-pro",
+      "cat": "block-how",
+      "desc": "Step-by-step carousel with images and navigation.",
+      "registry": "pro"
+    },
+    "how-it-works-2": {
+      "lib": "reactbits-pro",
+      "cat": "block-how",
+      "desc": "Step cards with dimmed image background hover effect.",
+      "registry": "pro"
+    },
+    "how-it-works-3": {
+      "lib": "reactbits-pro",
+      "cat": "block-how",
+      "desc": "Animated stepper with 3D perspective shifting images.",
+      "registry": "pro"
+    },
+    "download-1": {
+      "lib": "reactbits-pro",
+      "cat": "block-download",
+      "desc": "Versioned download section with OS options.",
+      "registry": "pro"
+    },
+    "download-2": {
+      "lib": "reactbits-pro",
+      "cat": "block-download",
+      "desc": "Download CTA with rating cards and app store options.",
+      "registry": "pro"
+    },
+    "download-3": {
+      "lib": "reactbits-pro",
+      "cat": "block-download",
+      "desc": "Download CTA with description and animated shader logo.",
+      "registry": "pro"
+    },
+    "blog-1": {
+      "lib": "reactbits-pro",
+      "cat": "block-blog",
+      "desc": "Responsive blog page with article card grid.",
+      "registry": "pro"
+    },
+    "blog-2": {
+      "lib": "reactbits-pro",
+      "cat": "block-blog",
+      "desc": "Recently published section with animated pagination.",
+      "registry": "pro"
+    },
+    "blog-3": {
+      "lib": "reactbits-pro",
+      "cat": "block-blog",
+      "desc": "Blog section with sidebar filtering and next/prev buttons.",
+      "registry": "pro"
+    },
+    "blog-4": {
+      "lib": "reactbits-pro",
+      "cat": "block-blog",
+      "desc": "Article page with stats and user details.",
+      "registry": "pro"
+    },
+    "blog-5": {
+      "lib": "reactbits-pro",
+      "cat": "block-blog",
+      "desc": "Detailed article page with scroll progress and AI input.",
+      "registry": "pro"
+    }
+  }
+}
