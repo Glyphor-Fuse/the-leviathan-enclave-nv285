@@ -1,6 +1,10 @@
-
 import React from "react";
 import { cn } from "@/lib/utils";
+
+interface CardType {
+  title: string;
+  src: string;
+}
 
 const Card = React.memo(({
   card,
@@ -8,7 +12,7 @@ const Card = React.memo(({
   hovered,
   setHovered,
 }: {
-  card: any;
+  card: CardType;
   index: number;
   hovered: number | null;
   setHovered: React.Dispatch<React.SetStateAction<number | null>>;
@@ -41,7 +45,7 @@ const Card = React.memo(({
 
 Card.displayName = "Card";
 
-export function FocusCards({ cards }: { cards: any[] }) {
+export function FocusCards({ cards }: { cards: CardType[] }) {
   const [hovered, setHovered] = React.useState<number | null>(null);
 
   return (
